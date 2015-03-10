@@ -1,0 +1,25 @@
+<phpunit bootstrap="./Bootstrap.php" 
+	     colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         verbose="true"
+         stopOnFailure="false"
+         processIsolation="false"
+         backupGlobals="false"
+         syntaxCheck="true"
+>
+    <testsuites>
+        <testsuite name="FyZf2Module Module Tests">
+            <directory>./FyZf2ModuleTest</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+    	<whitelist>
+    		<directory>../src</directory>
+    	</whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-text" target="php://stdout"/>      
+    </logging>
+</phpunit>

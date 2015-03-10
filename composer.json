@@ -1,0 +1,27 @@
+{
+  "name": "freemany/zf2module",
+  "description": "testing",
+  "keywords": ["php","zf2","module"],
+  "homepage": "http://test.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "freemany",
+      "email": "freeman@test.com",
+      "homepage": "http://freeman.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "FyZf2Module\\": "src/",
+      "FyZf2ModuleTest\\": "test/"
+    },
+    "classmap": [
+      "./"
+    ]
+  },
+  "require": {
+    "php": ">=5.3.3",
+    "zendframework/zendframework": "2.3.*"
+  }
+}
