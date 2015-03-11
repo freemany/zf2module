@@ -27,7 +27,8 @@
   },
   "require-dev": {
         "phpunit/phpunit": "~3.7",       
-        "zendframework/zend-test": "2.*"
+        "zendframework/zend-test": "2.*",
+        "satooshi/php-coveralls": "~0.6"
     }
     
 }
